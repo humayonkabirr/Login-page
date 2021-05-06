@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+  <title></title>
+</head>
+
+<body>
+
+  <div class="container">
+    <form class="login" action="#" method="post">
+      <div class="text-center">
+        <h4 style="color:white;">Add Medicine</h4>
+      </div>
+      <div class="row mt-3">
+        <div class="form-outline mb-3">
+          <input type="text" id="brand_name" class="form-control form-control-sm" name="brand_name" />
+          <label class="form-label" for="brand_name">Brand Name</label>
+        </div>
+
+        <div class="form-outline mb-3">
+          <input type="text" id="generic_name" class="form-control form-control-sm" name="generic_name" />
+          <label class="form-label" for="generic_name">Generic Name</label>
+        </div>
+
+        <div class="form-outline mb-3">
+          <input type="text" id="company_name" class="form-control form-control-sm" name="company_name" />
+          <label class="form-label" for="company_name">Company Name</label>
+        </div>
+
+        <div class="col-md-6 form-outline mb-3" style="margin-right: 14px;">
+          <input type="text" id="dosage_name" class="form-control form-control-sm" name="dosage_name" />
+          <label class="form-label" for="dosage_name">Dosage Form</label>
+        </div>
+
+        <div class="col-md-6 form-outline mb-3">
+          <input type="text" id="strength" class="form-control form-control-sm" name="strength" />
+          <label class="form-label" for="strength">Strength</label>
+        </div>
+
+        <div class="form-outline mb-3">
+          <input type="text" id="pack_size" class="form-control form-control-sm" name="pack_size" />
+          <label class="form-label" for="pack_size">Pack Size</label>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary" style="width: 50%;"> <strong>Submit</strong> </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
+
+
+</body>
+
+</html>
